@@ -428,7 +428,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BATDATSOCKET01.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
