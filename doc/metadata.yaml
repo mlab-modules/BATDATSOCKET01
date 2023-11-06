@@ -8,9 +8,18 @@ github_description: Adapter for fast battery and data storage connection. Compat
 github_repo: BATDATSOCKET01
 github_url: https://github.com/mlab-modules/BATDATSOCKET01
 homepage: false
-images: []
+images:
+- doc/gen/img/BATDATSOCKET01-top.png
+- doc/gen/img/BATDATSOCKET01-bottom.png
+- hw/cam_profi/assembly/BATDATSOCKET01-assembly_page_02.svg
+- hw/cam_profi/assembly/BATDATSOCKET01-assembly_page_01.svg
+- doc/gen/BATDATSOCKET01-schematic.svg
+- doc/gen/img/BATDATSOCKET01-bottom.svg
+- doc/gen/img/BATDATSOCKET01-top.svg
 issues: 2
 mark: 50
+mod_ibom: hw/cam_profi/BATDATSOCKET01-ibom.html
+mod_scheme: doc/gen/BATDATSOCKET01-schematic.pdf
 tags: []
 title: BATDATSOCKET01
-updated: '2023-11-06T23:52:45.651495+00:00'
+updated: '2023-11-06T23:55:33.546331+00:00'
