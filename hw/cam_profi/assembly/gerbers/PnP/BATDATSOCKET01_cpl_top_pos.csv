@@ -1,0 +1,10 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"D1","LED 0805","LED_0805_2012Metric",-9.9140,11.7600,0.0000,top
+"D2","LED 0805","LED_0805_2012Metric",-9.9140,8.7200,0.0000,top
+"H1","M3","MountingHole_3mm",-9.6600,2.2475,0.0000,top
+"H2","M3","MountingHole_3mm",-9.6600,83.5275,0.0000,top
+"H3","M3","MountingHole_3mm",-19.8200,73.3675,0.0000,top
+"H4","M3","MountingHole_3mm",-19.8200,12.4075,0.0000,top
+"J1","46436-9327","MOLEX_46437-9327",-4.3000,61.5550,90.0000,top
+"R1","270R","R_0805_2012Metric",-6.4265,11.8050,180.0000,top
+"R2","270R","R_0805_2012Metric",-6.4265,8.7550,180.0000,top

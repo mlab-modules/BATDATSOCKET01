@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/BATDATSOCKET01.kicad_sch</source>
+    <date>Mon Nov  6 23:54:37 2023</date>
+    <tool>Eeschema 7.0.8-7.0.8~ubuntu23.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BATDATSOCKET01.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED 0805</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13c265fc-4e5e-419d-a556-1d3c03ad0e4f</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED 0805</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ca32d39-b42b-4381-b191-0a2cbb96d2d0</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>M3</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f99e12ef-bc9d-43ec-958a-30a54872bddc</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>M3</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd472891-c006-4545-a130-dffd2a26b5f9</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>M3</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7a32e1c-44b1-423d-9c2d-baef5853ebc0</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>M3</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5bd3602-6126-4409-863d-fc6a93d277cd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>46436-9327</value>
+      <footprint>Mlab_CON:MOLEX_46437-9327</footprint>
+      <libsource lib="MLAB_CONNECTORS" part="MOLEX_46436-9327" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9780262-250f-4678-a665-0c040c4735be</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>HEADER_2x15</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x15" description="2x15 2.54 mm pitch header"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="ki_description" value="2x15 2.54 mm pitch header"/>
+      <property name="ki_keywords" value="2x15, header, connector, pinheader"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f486ac46-8ce3-4aaf-8b86-4311a1d45290</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2965ec81-dc15-4246-9778-b61eda243635</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0620c9ab-acf2-4268-a8b4-b2ea804f5c4d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a0a56f1-8bc1-4024-9292-9a6975917166</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e030c95-6978-441e-96b3-0717bd4cb92f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Bridged12">
+      <description>Jumper, 3-pole, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Bridged12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_CONNECTORS" part="MOLEX_46436-9327">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">~</field>
+        <field name="Footprint">Mlab_CON:MOLEX_46436-9327</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="" type="unspecified"/>
+        <pin num="A2" name="" type="unspecified"/>
+        <pin num="A3" name="" type="unspecified"/>
+        <pin num="A4" name="" type="unspecified"/>
+        <pin num="A5" name="" type="unspecified"/>
+        <pin num="A6" name="" type="unspecified"/>
+        <pin num="B1" name="" type="unspecified"/>
+        <pin num="B2" name="" type="unspecified"/>
+        <pin num="B3" name="" type="unspecified"/>
+        <pin num="B4" name="" type="unspecified"/>
+        <pin num="B5" name="" type="unspecified"/>
+        <pin num="B6" name="" type="unspecified"/>
+        <pin num="C1" name="" type="unspecified"/>
+        <pin num="C2" name="" type="unspecified"/>
+        <pin num="C3" name="" type="unspecified"/>
+        <pin num="C4" name="" type="unspecified"/>
+        <pin num="C5" name="" type="unspecified"/>
+        <pin num="C6" name="" type="unspecified"/>
+        <pin num="D1" name="" type="unspecified"/>
+        <pin num="D2" name="" type="unspecified"/>
+        <pin num="D3" name="" type="unspecified"/>
+        <pin num="D4" name="" type="unspecified"/>
+        <pin num="D5" name="" type="unspecified"/>
+        <pin num="D6" name="" type="unspecified"/>
+        <pin num="E1" name="" type="unspecified"/>
+        <pin num="E2" name="" type="unspecified"/>
+        <pin num="E3" name="" type="unspecified"/>
+        <pin num="E4" name="" type="unspecified"/>
+        <pin num="E5" name="" type="unspecified"/>
+        <pin num="E6" name="" type="unspecified"/>
+        <pin num="P1" name="" type="unspecified"/>
+        <pin num="P2" name="" type="unspecified"/>
+        <pin num="P3" name="" type="unspecified"/>
+        <pin num="P4" name="" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x15">
+      <description>2x15 2.54 mm pitch header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x15</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="" type="input"/>
+        <pin num="8" name="" type="input"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="" type="input"/>
+        <pin num="15" name="" type="input"/>
+        <pin num="16" name="" type="input"/>
+        <pin num="17" name="" type="input"/>
+        <pin num="18" name="" type="input"/>
+        <pin num="19" name="" type="input"/>
+        <pin num="20" name="" type="input"/>
+        <pin num="21" name="" type="input"/>
+        <pin num="22" name="" type="input"/>
+        <pin num="23" name="" type="input"/>
+        <pin num="24" name="" type="input"/>
+        <pin num="25" name="" type="input"/>
+        <pin num="26" name="" type="input"/>
+        <pin num="27" name="" type="input"/>
+        <pin num="28" name="" type="input"/>
+        <pin num="29" name="" type="input"/>
+        <pin num="30" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3v3">
+      <node ref="J1" pin="A3" pintype="unspecified"/>
+      <node ref="J1" pin="B3" pintype="unspecified"/>
+      <node ref="J2" pin="5" pintype="input"/>
+      <node ref="J2" pin="6" pintype="input"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/5v">
+      <node ref="J1" pin="A4" pintype="unspecified"/>
+      <node ref="J1" pin="B4" pintype="unspecified"/>
+      <node ref="J2" pin="3" pintype="input"/>
+      <node ref="J2" pin="4" pintype="input"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/A0">
+      <node ref="J1" pin="D4" pintype="unspecified"/>
+      <node ref="J2" pin="10" pintype="input"/>
+    </net>
+    <net code="4" name="/A1">
+      <node ref="J1" pin="D5" pintype="unspecified"/>
+      <node ref="J2" pin="12" pintype="input"/>
+    </net>
+    <net code="5" name="/B0">
+      <node ref="J1" pin="E5" pintype="unspecified"/>
+      <node ref="J2" pin="16" pintype="input"/>
+    </net>
+    <net code="6" name="/B1">
+      <node ref="J1" pin="E6" pintype="unspecified"/>
+      <node ref="J2" pin="14" pintype="input"/>
+    </net>
+    <net code="7" name="/BATT_A">
+      <node ref="J1" pin="P4" pintype="unspecified"/>
+    </net>
+    <net code="8" name="/BATT_B">
+      <node ref="J1" pin="P1" pintype="unspecified"/>
+    </net>
+    <net code="9" name="/C0">
+      <node ref="J1" pin="E1" pintype="unspecified"/>
+      <node ref="J2" pin="20" pintype="input"/>
+    </net>
+    <net code="10" name="/C1">
+      <node ref="J1" pin="E2" pintype="unspecified"/>
+      <node ref="J2" pin="18" pintype="input"/>
+    </net>
+    <net code="11" name="/I2C_PWR">
+      <node ref="J2" pin="25" pintype="input"/>
+      <node ref="J2" pin="26" pintype="input"/>
+      <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="12" name="/MISO">
+      <node ref="J1" pin="D2" pintype="unspecified"/>
+      <node ref="J2" pin="17" pintype="input"/>
+    </net>
+    <net code="13" name="/MOSI">
+      <node ref="J1" pin="D3" pintype="unspecified"/>
+      <node ref="J2" pin="15" pintype="input"/>
+    </net>
+    <net code="14" name="/RX">
+      <node ref="J1" pin="E4" pintype="unspecified"/>
+      <node ref="J2" pin="11" pintype="input"/>
+    </net>
+    <net code="15" name="/SCL">
+      <node ref="J1" pin="C1" pintype="unspecified"/>
+      <node ref="J2" pin="23" pintype="input"/>
+      <node ref="J2" pin="24" pintype="input"/>
+    </net>
+    <net code="16" name="/SCLK">
+      <node ref="J1" pin="D1" pintype="unspecified"/>
+      <node ref="J2" pin="19" pintype="input"/>
+    </net>
+    <net code="17" name="/SDA">
+      <node ref="J1" pin="C2" pintype="unspecified"/>
+      <node ref="J2" pin="27" pintype="input"/>
+      <node ref="J2" pin="28" pintype="input"/>
+    </net>
+    <net code="18" name="/TX">
+      <node ref="J1" pin="E3" pintype="unspecified"/>
+      <node ref="J2" pin="13" pintype="input"/>
+    </net>
+    <net code="19" name="/connection_detector">
+      <node ref="J1" pin="D6" pintype="unspecified"/>
+      <node ref="J2" pin="7" pintype="input"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="20" name="GND">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="A2" pintype="unspecified"/>
+      <node ref="J1" pin="A5" pintype="unspecified"/>
+      <node ref="J1" pin="B2" pintype="unspecified"/>
+      <node ref="J1" pin="B5" pintype="unspecified"/>
+      <node ref="J1" pin="P2" pintype="unspecified"/>
+      <node ref="J1" pin="P3" pintype="unspecified"/>
+      <node ref="J2" pin="1" pintype="input"/>
+      <node ref="J2" pin="2" pintype="input"/>
+      <node ref="J2" pin="21" pintype="input"/>
+      <node ref="J2" pin="22" pintype="input"/>
+      <node ref="J2" pin="29" pintype="input"/>
+      <node ref="J2" pin="30" pintype="input"/>
+      <node ref="J2" pin="8" pintype="input"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(J1-PadA1)">
+      <node ref="J1" pin="A1" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(J1-PadA6)">
+      <node ref="J1" pin="A6" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(J1-PadB1)">
+      <node ref="J1" pin="B1" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(J1-PadB6)">
+      <node ref="J1" pin="B6" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(J1-PadC3)">
+      <node ref="J1" pin="C3" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(J1-PadC4)">
+      <node ref="J1" pin="C4" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(J1-PadC5)">
+      <node ref="J1" pin="C5" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(J1-PadC6)">
+      <node ref="J1" pin="C6" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(J2-Pad9)">
+      <node ref="J2" pin="9" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
