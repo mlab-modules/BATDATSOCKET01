@@ -11,8 +11,8 @@ homepage: false
 images:
 - doc/gen/img/BATDATSOCKET01-top.png
 - doc/gen/img/BATDATSOCKET01-bottom.png
-- hw/cam_profi/assembly/BATDATSOCKET01-assembly_page_02.svg
 - hw/cam_profi/assembly/BATDATSOCKET01-assembly_page_01.svg
+- hw/cam_profi/assembly/BATDATSOCKET01-assembly_page_02.svg
 - doc/gen/BATDATSOCKET01-schematic.svg
 - doc/gen/img/BATDATSOCKET01-bottom.svg
 - doc/gen/img/BATDATSOCKET01-top.svg
@@ -22,4 +22,4 @@ mod_ibom: hw/cam_profi/BATDATSOCKET01-ibom.html
 mod_scheme: doc/gen/BATDATSOCKET01-schematic.pdf
 tags: []
 title: BATDATSOCKET01
-updated: '2023-11-07T19:13:25.775147+00:00'
+updated: '2023-11-23T00:47:08.500366+00:00'
