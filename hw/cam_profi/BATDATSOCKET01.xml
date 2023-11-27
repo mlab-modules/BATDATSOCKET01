@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATSOCKET01.kicad_sch</source>
-    <date>Thu Nov 23 00:48:35 2023</date>
-    <tool>Eeschema 7.0.8-7.0.8~ubuntu23.04.1</tool>
+    <date>Mon Nov 27 22:13:36 2023</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -109,8 +109,9 @@
     </comp>
     <comp ref="J2">
       <value>HEADER_2x15</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical</footprint>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Vertical</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x15" description="2x15 2.54 mm pitch header"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
       <property name="ki_description" value="2x15 2.54 mm pitch header"/>
@@ -363,19 +364,19 @@
     </net>
     <net code="3" name="/A0">
       <node ref="J1" pin="D4" pintype="unspecified"/>
-      <node ref="J2" pin="10" pintype="input"/>
+      <node ref="J2" pin="9" pintype="input"/>
     </net>
     <net code="4" name="/A1">
       <node ref="J1" pin="D5" pintype="unspecified"/>
-      <node ref="J2" pin="12" pintype="input"/>
+      <node ref="J2" pin="11" pintype="input"/>
     </net>
     <net code="5" name="/B0">
       <node ref="J1" pin="E5" pintype="unspecified"/>
-      <node ref="J2" pin="16" pintype="input"/>
+      <node ref="J2" pin="15" pintype="input"/>
     </net>
     <net code="6" name="/B1">
       <node ref="J1" pin="E6" pintype="unspecified"/>
-      <node ref="J2" pin="14" pintype="input"/>
+      <node ref="J2" pin="13" pintype="input"/>
     </net>
     <net code="7" name="/BATT_A">
       <node ref="J1" pin="P4" pintype="unspecified"/>
@@ -385,11 +386,11 @@
     </net>
     <net code="9" name="/C0">
       <node ref="J1" pin="E1" pintype="unspecified"/>
-      <node ref="J2" pin="20" pintype="input"/>
+      <node ref="J2" pin="19" pintype="input"/>
     </net>
     <net code="10" name="/C1">
       <node ref="J1" pin="E2" pintype="unspecified"/>
-      <node ref="J2" pin="18" pintype="input"/>
+      <node ref="J2" pin="17" pintype="input"/>
     </net>
     <net code="11" name="/I2C_PWR">
       <node ref="J2" pin="25" pintype="input"/>
@@ -398,19 +399,19 @@
     </net>
     <net code="12" name="/MISO">
       <node ref="J1" pin="D2" pintype="unspecified"/>
-      <node ref="J2" pin="17" pintype="input"/>
+      <node ref="J2" pin="18" pintype="input"/>
     </net>
     <net code="13" name="/MOSI">
       <node ref="J1" pin="D3" pintype="unspecified"/>
-      <node ref="J2" pin="15" pintype="input"/>
+      <node ref="J2" pin="16" pintype="input"/>
     </net>
     <net code="14" name="/RST">
       <node ref="J1" pin="C4" pintype="unspecified"/>
-      <node ref="J2" pin="9" pintype="input"/>
+      <node ref="J2" pin="10" pintype="input"/>
     </net>
     <net code="15" name="/RX">
       <node ref="J1" pin="E4" pintype="unspecified"/>
-      <node ref="J2" pin="11" pintype="input"/>
+      <node ref="J2" pin="12" pintype="input"/>
     </net>
     <net code="16" name="/SCL">
       <node ref="J1" pin="C1" pintype="unspecified"/>
@@ -419,7 +420,7 @@
     </net>
     <net code="17" name="/SCLK">
       <node ref="J1" pin="D1" pintype="unspecified"/>
-      <node ref="J2" pin="19" pintype="input"/>
+      <node ref="J2" pin="20" pintype="input"/>
     </net>
     <net code="18" name="/SDA">
       <node ref="J1" pin="C2" pintype="unspecified"/>
@@ -428,11 +429,11 @@
     </net>
     <net code="19" name="/TX">
       <node ref="J1" pin="E3" pintype="unspecified"/>
-      <node ref="J2" pin="13" pintype="input"/>
+      <node ref="J2" pin="14" pintype="input"/>
     </net>
     <net code="20" name="/connection_detector">
       <node ref="J1" pin="D6" pintype="unspecified"/>
-      <node ref="J2" pin="7" pintype="input"/>
+      <node ref="J2" pin="8" pintype="input"/>
       <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
     </net>
     <net code="21" name="GND">
@@ -454,7 +455,7 @@
       <node ref="J2" pin="22" pintype="input"/>
       <node ref="J2" pin="29" pintype="input"/>
       <node ref="J2" pin="30" pintype="input"/>
-      <node ref="J2" pin="8" pintype="input"/>
+      <node ref="J2" pin="7" pintype="input"/>
       <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
     </net>
     <net code="22" name="Net-(D1-A)">

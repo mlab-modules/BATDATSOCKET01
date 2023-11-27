@@ -6,6 +6,6 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "H3","M3","MountingHole_3mm",-19.8200,73.3675,0.0000,top
 "H4","M3","MountingHole_3mm",-19.8200,12.4075,0.0000,top
 "J1","46436-9327","MOLEX_46437-9327",-4.3000,61.5550,90.0000,top
-"J2","HEADER_2x15","PinHeader_2x15_P2.54mm_Vertical",-19.8200,60.7250,180.0000,bottom
+"J2","HEADER_2x15","PinSocket_2x15_P2.54mm_Vertical",-22.3600,60.7250,180.0000,bottom
 "R1","270R","R_0805_2012Metric",-6.4265,11.8050,180.0000,top
 "R2","270R","R_0805_2012Metric",-6.4265,8.7550,180.0000,top
