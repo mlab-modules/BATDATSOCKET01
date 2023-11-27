@@ -1,6 +1,6 @@
 description: Adapter for fast battery and data storage connection. Compatibile with
   BATDATUNIT01
-github_branch: BATDATSOCKET01A
+github_branch: BATDATSOCKET01B
 github_branches:
 - MODUL01A
 github_description: Adapter for fast battery and data storage connection. Compatibile
@@ -22,4 +22,4 @@ mod_ibom: hw/cam_profi/BATDATSOCKET01-ibom.html
 mod_scheme: doc/gen/BATDATSOCKET01-schematic.pdf
 tags: []
 title: BATDATSOCKET01
-updated: '2023-11-23T00:49:19.937625+00:00'
+updated: '2023-11-27T22:12:08.145063+00:00'
