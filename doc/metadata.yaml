@@ -14,12 +14,12 @@ images:
 - hw/cam_profi/assembly/BATDATSOCKET01-assembly_page_01.svg
 - hw/cam_profi/assembly/BATDATSOCKET01-assembly_page_02.svg
 - doc/gen/BATDATSOCKET01-schematic.svg
-- doc/gen/img/BATDATSOCKET01-bottom.svg
 - doc/gen/img/BATDATSOCKET01-top.svg
+- doc/gen/img/BATDATSOCKET01-bottom.svg
 issues: 2
 mark: 50
 mod_ibom: hw/cam_profi/BATDATSOCKET01-ibom.html
 mod_scheme: doc/gen/BATDATSOCKET01-schematic.pdf
 tags: []
 title: BATDATSOCKET01
-updated: '2023-11-27T22:14:34.522187+00:00'
+updated: '2023-12-24T23:40:20.899470+00:00'
