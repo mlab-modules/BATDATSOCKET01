@@ -17,6 +17,7 @@ images:
 - doc/gen/img/BATDATSOCKET01-top.svg
 - doc/gen/img/BATDATSOCKET01-bottom.svg
 issues: 2
+status: 2
 mark: 50
 mod_ibom: hw/cam_profi/BATDATSOCKET01-ibom.html
 mod_scheme: doc/gen/BATDATSOCKET01-schematic.pdf
