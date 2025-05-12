@@ -11,11 +11,11 @@ homepage: false
 images:
 - doc/gen/img/BATDATSOCKET01-top.png
 - doc/gen/img/BATDATSOCKET01-bottom.png
+- doc/gen/BATDATSOCKET01-schematic.svg
+- doc/gen/img/BATDATSOCKET01-bottom.svg
+- doc/gen/img/BATDATSOCKET01-top.svg
 - hw/cam_profi/assembly/BATDATSOCKET01-assembly_page_02.svg
 - hw/cam_profi/assembly/BATDATSOCKET01-assembly_page_01.svg
-- doc/gen/BATDATSOCKET01-schematic.svg
-- doc/gen/img/BATDATSOCKET01-top.svg
-- doc/gen/img/BATDATSOCKET01-bottom.svg
 issues: 2
 mark: 50
 mod_ibom: hw/cam_profi/BATDATSOCKET01-ibom.html
@@ -33,4 +33,4 @@ tags:
 - sd-card
 - usb-c
 title: BATDATSOCKET01
-updated: '2025-05-11T23:34:05.565602+00:00'
+updated: '2025-05-12T21:57:35.750494+00:00'
