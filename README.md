@@ -1,4 +1,4 @@
-# BATDATSOCKET01B - Li-ion power and Data Storage Module socket interface
+# BATDATSOCKET01 - Li-ion power and Data Storage Module socket interface
 
 The BATDATSOCKET01 is a complementary module to the battery and data module [BATDATUNIT01](https://github.com/mlab-modules/BATDATUNIT01). It is a reliable power source for extended durations, making it an integral component in a wide array of detectors or measuring systems.
 
@@ -7,8 +7,8 @@ The BATDATSOCKET01 is a complementary module to the battery and data module [BAT
 The BATDATUNIT01 is designed for versatility:
 
 - As a **power module for semiconductor particle detectors** like the [AIRDOS04](https://github.com/UniversalScientificTechnologies/AIRDOS04), it ensures uninterrupted data acquisition in environmental monitoring.
-- It can be integrated into **remote sensing stations**, where it provides consistent power and data logging capabilities for long-term ecological studies.
-- In **automated weather stations**, the module's resilience and sensor suite offers valuable insights into meteorological conditions.
+- It can be integrated into **remote sensing stations**, providing consistent power and data logging capabilities for long-term ecological studies.
+- In **automated weather stations**, the module's resilience and sensor suite offer valuable insights into meteorological conditions.
 - The module can be deployed in **mobile robotics** for energy supply and environmental data collection, aiding navigation and decision-making processes.
 - It is also ideal for **educational purposes**, as a hands-on tool to teach about energy management, data acquisition, and sensor integration.
 
