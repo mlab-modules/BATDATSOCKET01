@@ -20,17 +20,17 @@ Silk screen: TOP / BOTTOM
 
 Stackup:
 
-| Name                 | Type                 | Color            | Thickness | Material        | Epsilon_r | Loss tangent |
-|----------------------|----------------------|------------------|-----------|-----------------|-----------|--------------|
-| F.SilkS              | Top Silk Screen      | Black            |           |                 |           |              |
-| F.Paste              | Top Solder Paste     |                  |           |                 |           |              |
-| F.Mask               | Top Solder Mask      | White            |        10 |                 |           |              |
-| F.Cu                 | copper               |                  |        35 |                 |           |              |
-| dielectric 1         | core                 | FR4 natural      |      1510 | FR4             |       4.5 |        0.020 |
-| B.Cu                 | copper               |                  |        35 |                 |           |              |
-| B.Mask               | Bottom Solder Mask   | White            |        10 |                 |           |              |
-| B.Paste              | Bottom Solder Paste  |                  |           |                 |           |              |
-| B.SilkS              | Bottom Silk Screen   | Black            |           |                 |           |              |
+| Name                 | Type                 | Color            | Thickness [µm]| Material        | Er        | Loss tan     |
+|----------------------|----------------------|------------------|---------------|-----------------|-----------|--------------|
+| F.SilkS              | Top Silk Screen      | Black            |               |                 |           |              |
+| F.Paste              | Top Solder Paste     |                  |               |                 |           |              |
+| F.Mask               | Top Solder Mask      | White            |            10 |                 |           |              |
+| F.Cu                 | copper               |                  |            35 |                 |           |              |
+| dielectric 1         | core                 | FR4 natural      |          1510 | FR4             |       4.5 |        0.020 |
+| B.Cu                 | copper               |                  |            35 |                 |           |              |
+| B.Mask               | Bottom Solder Mask   | White            |            10 |                 |           |              |
+| B.Paste              | Bottom Solder Paste  |                  |               |                 |           |              |
+| B.SilkS              | Bottom Silk Screen   | Black            |               |                 |           |              |
 
 # Important sizes
 
@@ -105,6 +105,18 @@ Drill tools (including vias and computing adjusts and rounding):
 - 3.1 mm (122 mils) (2)
 - 3.2 mm (126 mils) (2)
 
+Solder paste stats:
+
+Using a paste with 87.75 % alloy, that has an specific gravity for the alloy of 7.4 g/cm³
+and 1.0 g/cm³ for the flux. This paste has an specific gravity of  4.15 g/cm³.
+
+The stencil thickness is  0.12 mm.
+
+| Side   | Pads with paste | Area [mm²] | Paste [g] |
+|--------|-----------------|------------|-----------|
+| Total  |               8 |      10.74 |      0.05 |
+
+Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 
 
 
