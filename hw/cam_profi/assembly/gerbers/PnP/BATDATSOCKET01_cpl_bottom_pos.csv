@@ -1,2 +1,3 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "J2","HEADER_2x15","PinSocket_2x15_P2.54mm_Vertical",-22.3600,60.7250,180.0000,bottom
+"J3","HEADER_2x03_PARALLEL","Straight_2x03",-20.6632,19.6684,90.0000,bottom

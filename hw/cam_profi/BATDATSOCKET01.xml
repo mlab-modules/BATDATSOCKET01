@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/BATDATSOCKET01.kicad_sch</source>
-    <date>2025-05-12T22:44:02+0000</date>
-    <tool>Eeschema 8.0.8+1</tool>
+    <date>2025-05-14T23:09:44+0000</date>
+    <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -165,6 +165,22 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f486ac46-8ce3-4aaf-8b86-4311a1d45290</tstamps>
     </comp>
+    <comp ref="J3">
+      <value>HEADER_2x03_PARALLEL</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <description>2x03 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="Footprint">Mlab_Pin_Headers:Straight_2x03</field>
+        <field name="Datasheet"/>
+        <field name="Description">2x03 2.54 mm pitch header, 2 pins next to each other are connected</field>
+      </fields>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="ki_keywords" value="2x03, header, connector, pinheader"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61a4cffa-7b70-43c2-ab21-9ddf273dfd47</tstamps>
+    </comp>
     <comp ref="JP1">
       <value>Jumper_3_Bridged12</value>
       <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
@@ -229,8 +245,60 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5e030c95-6978-441e-96b3-0717bd4cb92f</tstamps>
     </comp>
+    <comp ref="TP1">
+      <value>Battery+</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_4.0x4.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85ee25cb-cfe9-4f79-ac9e-b24b8fdb12ff</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>Battery+</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_4.0x4.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BATDATSOCKET01.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3301f00-e9e3-429f-a995-ed085b48b0ef</tstamps>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="LED">
       <description>Light emitting diode</description>
       <docs>~</docs>
@@ -355,6 +423,24 @@
         <pin num="P4" name="" type="unspecified"/>
       </pins>
     </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL">
+      <description>2x03 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x03_PARALLEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">2x03 2.54 mm pitch header, 2 pins next to each other are connected</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="MLAB_HEADER" part="HEADER_2x15">
       <description>2x15 2.54 mm pitch header</description>
       <fields>
@@ -416,6 +502,9 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
@@ -427,7 +516,7 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/3v3">
+    <net code="1" name="/3v3" class="Default">
       <node ref="J1" pin="A3" pintype="unspecified"/>
       <node ref="J1" pin="B3" pintype="unspecified"/>
       <node ref="J2" pin="5" pintype="input"/>
@@ -435,7 +524,7 @@
       <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="2" name="/5v">
+    <net code="2" name="/5v" class="Default">
       <node ref="J1" pin="A4" pintype="unspecified"/>
       <node ref="J1" pin="B4" pintype="unspecified"/>
       <node ref="J2" pin="3" pintype="input"/>
@@ -443,81 +532,84 @@
       <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="3" name="/A0">
+    <net code="3" name="/A0" class="Default">
       <node ref="J1" pin="D4" pintype="unspecified"/>
       <node ref="J2" pin="9" pintype="input"/>
     </net>
-    <net code="4" name="/A1">
+    <net code="4" name="/A1" class="Default">
       <node ref="J1" pin="D5" pintype="unspecified"/>
       <node ref="J2" pin="11" pintype="input"/>
     </net>
-    <net code="5" name="/B0">
+    <net code="5" name="/B0" class="Default">
       <node ref="J1" pin="E5" pintype="unspecified"/>
       <node ref="J2" pin="15" pintype="input"/>
     </net>
-    <net code="6" name="/B1">
+    <net code="6" name="/B1" class="Default">
       <node ref="J1" pin="E6" pintype="unspecified"/>
       <node ref="J2" pin="13" pintype="input"/>
     </net>
-    <net code="7" name="/BATT_A">
+    <net code="7" name="/BATT_A" class="Default">
       <node ref="J1" pin="P4" pintype="unspecified"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="8" name="/BATT_B">
+    <net code="8" name="/BATT_B" class="Default">
       <node ref="J1" pin="P1" pintype="unspecified"/>
+      <node ref="J3" pin="3" pintype="input"/>
+      <node ref="J3" pin="4" pintype="input"/>
     </net>
-    <net code="9" name="/C0">
+    <net code="9" name="/C0" class="Default">
       <node ref="J1" pin="E1" pintype="unspecified"/>
       <node ref="J2" pin="19" pintype="input"/>
     </net>
-    <net code="10" name="/C1">
+    <net code="10" name="/C1" class="Default">
       <node ref="J1" pin="E2" pintype="unspecified"/>
       <node ref="J2" pin="17" pintype="input"/>
     </net>
-    <net code="11" name="/I2C_PWR">
+    <net code="11" name="/I2C_PWR" class="Default">
       <node ref="J2" pin="25" pintype="input"/>
       <node ref="J2" pin="26" pintype="input"/>
       <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="12" name="/MISO">
+    <net code="12" name="/MISO" class="Default">
       <node ref="J1" pin="D2" pintype="unspecified"/>
       <node ref="J2" pin="18" pintype="input"/>
     </net>
-    <net code="13" name="/MOSI">
+    <net code="13" name="/MOSI" class="Default">
       <node ref="J1" pin="D3" pintype="unspecified"/>
       <node ref="J2" pin="16" pintype="input"/>
     </net>
-    <net code="14" name="/RST">
+    <net code="14" name="/RST" class="Default">
       <node ref="J1" pin="C4" pintype="unspecified"/>
       <node ref="J2" pin="10" pintype="input"/>
     </net>
-    <net code="15" name="/RX">
+    <net code="15" name="/RX" class="Default">
       <node ref="J1" pin="E4" pintype="unspecified"/>
       <node ref="J2" pin="12" pintype="input"/>
     </net>
-    <net code="16" name="/SCL">
+    <net code="16" name="/SCL" class="Default">
       <node ref="J1" pin="C1" pintype="unspecified"/>
       <node ref="J2" pin="23" pintype="input"/>
       <node ref="J2" pin="24" pintype="input"/>
     </net>
-    <net code="17" name="/SCLK">
+    <net code="17" name="/SCLK" class="Default">
       <node ref="J1" pin="D1" pintype="unspecified"/>
       <node ref="J2" pin="20" pintype="input"/>
     </net>
-    <net code="18" name="/SDA">
+    <net code="18" name="/SDA" class="Default">
       <node ref="J1" pin="C2" pintype="unspecified"/>
       <node ref="J2" pin="27" pintype="input"/>
       <node ref="J2" pin="28" pintype="input"/>
     </net>
-    <net code="19" name="/TX">
+    <net code="19" name="/TX" class="Default">
       <node ref="J1" pin="E3" pintype="unspecified"/>
       <node ref="J2" pin="14" pintype="input"/>
     </net>
-    <net code="20" name="/connection_detector">
+    <net code="20" name="/connection_detector" class="Default">
       <node ref="J1" pin="D6" pintype="unspecified"/>
       <node ref="J2" pin="8" pintype="input"/>
       <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="21" name="GND">
+    <net code="21" name="GND" class="Default">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
@@ -537,35 +629,40 @@
       <node ref="J2" pin="29" pintype="input"/>
       <node ref="J2" pin="30" pintype="input"/>
       <node ref="J2" pin="7" pintype="input"/>
+      <node ref="J3" pin="1" pintype="input"/>
+      <node ref="J3" pin="2" pintype="input"/>
+      <node ref="J3" pin="5" pintype="input"/>
+      <node ref="J3" pin="6" pintype="input"/>
       <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(D1-A)">
+    <net code="22" name="Net-(D1-A)" class="Default">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(D2-A)">
+    <net code="23" name="Net-(D2-A)" class="Default">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="24" name="unconnected-(J1-PadA1)">
+    <net code="24" name="unconnected-(J1-PadA1)" class="Default">
       <node ref="J1" pin="A1" pintype="unspecified+no_connect"/>
     </net>
-    <net code="25" name="unconnected-(J1-PadA6)">
+    <net code="25" name="unconnected-(J1-PadA6)" class="Default">
       <node ref="J1" pin="A6" pintype="unspecified+no_connect"/>
     </net>
-    <net code="26" name="unconnected-(J1-PadB1)">
+    <net code="26" name="unconnected-(J1-PadB1)" class="Default">
       <node ref="J1" pin="B1" pintype="unspecified+no_connect"/>
     </net>
-    <net code="27" name="unconnected-(J1-PadB6)">
+    <net code="27" name="unconnected-(J1-PadB6)" class="Default">
       <node ref="J1" pin="B6" pintype="unspecified+no_connect"/>
     </net>
-    <net code="28" name="unconnected-(J1-PadC3)">
+    <net code="28" name="unconnected-(J1-PadC3)" class="Default">
       <node ref="J1" pin="C3" pintype="unspecified+no_connect"/>
     </net>
-    <net code="29" name="unconnected-(J1-PadC5)">
+    <net code="29" name="unconnected-(J1-PadC5)" class="Default">
       <node ref="J1" pin="C5" pintype="unspecified+no_connect"/>
     </net>
-    <net code="30" name="unconnected-(J1-PadC6)">
+    <net code="30" name="unconnected-(J1-PadC6)" class="Default">
       <node ref="J1" pin="C6" pintype="unspecified+no_connect"/>
     </net>
   </nets>
